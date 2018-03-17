@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="widht=device-widht,user-scalable=no">
+    <title>Formulario y Atributos</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Atributos para la Etiqueta input</legend>
+        <p>
+          Campo de texto desabilitado <br/>
+          <input type="text" disabled value="texto">
+        </p>
+        <p>
+          Campo de texto de solo lectura <br/>
+          <input type="text" readonly value="texto">
+        </p>
+        <p>
+          Texto máximo de 5 caracteres <br/>
+          <input type="text" maxlength="5">
+        </p>
+        <p>
+          Campo para ingresar un número con valor máximo de 100 <br/>
+          <input type="number" max="100">
+        </p>
+        <p>
+          Campo para ingresar un número con valor mínimo de 10 <br/>
+          <input type="number" min="10">
+        </p>
+        <p>
+          Campo de texto con valor predeterminado de texto ejemplo <br/>
+          <input type="text" value="Texto ejemplo">
+        </p>
+        <p>
+          Campo numérico con paso de 5 <br/>
+          <input type="number" step="5">
+        </p>
+        <p>
+          Atributo con pista para el usuario <br/>
+          <input type="text" placeholder="Escriba su Nombre">
+        </p>
+        <p>
+          Atributo para nombrar la etiqueta <br/>
+          <input type="text" name="campo_Apellido">
+        </p>
+        <p>Atributo para asignar un identificador único <br/>
+          <input type="email" id="email_usuario">
+        </p>
+        <select>
+          <option>Ciudad 1</option>
+          <option>Ciudad 2</option>
+          <option>Ciudad 3</option>
+        </select>
+        <textarea name="area de texto" rows="8" cols="80"></textarea>
+      </fieldset>
+    </form>
+  </body>
+</html>
